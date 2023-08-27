@@ -1,0 +1,128 @@
+img {
+  width: 200px;
+  height: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  display: block;
+  border-radius: 20px;
+  border-bottom: 2px grey solid;
+  border-right: 2px grey solid;
+}
+img:hover {
+  border-bottom: 2px gold solid;
+  border-right: 2px gold solid;
+}
+#centralDiv {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 100%;
+  display: block;
+  border: 1px dashed;
+  background-color: rgb(107, 107, 107);
+  border-radius: 15px;
+}
+#centralDivMain {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 100%;
+  display: block;
+  border: 1px dashed;
+  background-color: rgb(107, 107, 107);
+  border-radius: 15px;
+}
+#menuBar {
+  background-color: rgb(6, 48, 67);
+  width: 100%;
+  height: 60px;
+  position: sticky;
+  top: 0px;
+  display: block;
+  overflow: hidden;
+  padding-right: 40%;
+  border-bottom: 2px solid rgb(242, 222, 193);
+  border-radius: 0px 20px;
+}
+body {
+  background-color: rgb(54, 54, 54);
+  margin: 0 0 0 0;
+}
+#listaNav {
+  text-align: center;
+  border-top: 8px rgb(41, 38, 30) solid;
+  border-bottom: 9px rgb(8, 29, 79) solid;
+  list-style: none;
+  height: 30px;
+  font-size: 12px;
+  background-color: rgb(0, 0, 0);
+  padding-top: 1%;
+  color: wheat;
+}
+li {
+  float: left;
+  text-transform: uppercase;
+  padding-top: 3px;
+  padding-left: 10px;
+  text-decoration: none;
+}
+li::first-letter {
+  color: antiquewhite;
+  font-size: 15px;
+}
+a {
+  color: wheat;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(249, 238, 225);
+}
+h5 {
+  text-transform: uppercase;
+  color: rgb(251, 62, 62);
+  border-bottom: 1px solid wheat;
+}
+h5:hover {
+  background-color: gray;
+}
+
+#dbutton {
+  padding-left: 20%;
+}
+button {
+  width: 80%;
+  background-color: rgb(121, 121, 119);
+  border-radius: 4px;
+  border: 2px solid rgb(160, 137, 5);
+}
+
+#line {
+  border-bottom: 2px solid white;
+  width: 100%;
+  height: 10px;
+}
+#space {
+  width: 100%;
+  height: 10px;
+}
+button:hover {
+  color: wheat;
+  border-radius: 6px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+#centralDivMainMapa {
+  padding-left: 150px;
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 100%;
+  border: 1px dashed;
+  background-color: rgb(107, 107, 107);
+  border-radius: 15px;
+}
+iframe {
+  width: 80%;
+}
